@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(49, 3, 49);
+    padding: 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.form{
+    padding: 20pt;
+    background-color: rgb(244, 244, 245);
+    /* border: 1pt solid black; */
+    width: 20%;
+    height: 70vh;
+    border-radius: 11pt;
+    box-shadow: 17pt 17pt rgb(34, 2, 34);
+}
+.heading{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 3pt;
+    margin-bottom: 30pt;
+    text-align: center;
+    color: rgb(103, 24, 103);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 100%;
+    border: 2pt solid black;
+    box-shadow: 2pt 2pt;
+    border-radius: 3pt;
+    margin-top: 5pt;
+    margin-bottom: 10pt;
+    height: 27pt;
+}
+.label{
+    margin-bottom: 2pt;
+    margin-top: 5pt;
+    font-weight: bold;
+}
+button{
+    width: 100%;
+    background-color: rgba(64, 2, 64, 0.904);
+    color: black;
+    border-radius: 15pt;
+    height: 35pt;
+    margin-top: 15pt;
+    box-shadow: 3pt 3pt ;
+    border: 2pt solid black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.msg{
+    margin-top: 55pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

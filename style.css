@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(49, 3, 49);
+    background-color: rgb(117, 44, 117);
     padding: 10pt;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
     width: 20%;
     height: 70vh;
     border-radius: 11pt;
-    box-shadow: 25pt 25pt rgb(34, 2, 34);
+    box-shadow: 25pt 25pt rgb(58, 4, 58);
 }
 .heading{
     font-weight: bolder;
@@ -26,11 +26,11 @@ body{
     margin-top: 3pt;
     margin-bottom: 30pt;
     text-align: center;
-    color: rgb(103, 24, 103);
+    color: rgb(77, 19, 77);
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
-    width: 100%;
+    width: 95%;
     border: 2pt solid black;
     box-shadow: 2pt 2pt;
     border-radius: 3pt;
@@ -38,6 +38,7 @@ input{
     margin-bottom: 10pt;
     height: 27pt;
     padding: 6pt;
+    
 }
 .label{
     margin-bottom: 2pt;
@@ -46,7 +47,7 @@ input{
 }
 button{
     width: 100%;
-    background-color: rgba(64, 2, 64, 0.904);
+    background-color: rgba(85, 21, 85, 0.904);
     color: black;
     border-radius: 15pt;
     height: 35pt;
@@ -58,7 +59,6 @@ button{
     text-align: center;
 }
 .msg{
-    margin-top: 55pt;
+    margin-top: 40pt;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }

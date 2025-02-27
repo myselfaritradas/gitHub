@@ -1,0 +1,50 @@
+.a{
+    background-color: aliceblue;
+    padding: 10pt;
+    margin: 10pt;
+    height: 2vh;
+    width: 10%;
+}
+.b{
+    background-color: aliceblue;
+    padding: 10pt;
+    margin: 10pt;
+    height: 2vh;
+    width: 10%;
+}
+.c{
+    background-color: aliceblue;
+    padding: 10pt;
+    margin: 10pt;
+    height: 2vh;
+    width: 8%;
+}
+.d{
+    background-color: aliceblue;
+    padding: 10pt;
+    margin: 10pt;
+    height: 2vh;
+    width: 10%;
+}
+.e{
+    background-color: aliceblue;
+    padding: 10pt;
+    margin: 10pt; 
+    height: 2vh;
+    width: 8%;
+}
+.f{
+    background-color: aliceblue;
+    padding: 10pt;
+    margin: 10pt;
+    height: 2vh;
+    width: 8%;
+}
+.box{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+}

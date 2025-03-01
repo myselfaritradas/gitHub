@@ -1,50 +1,69 @@
-.a{
-    background-color: aliceblue;
-    padding: 10pt;
-    margin: 10pt;
-    height: 2vh;
-    width: 10%;
-}
-.b{
-    background-color: aliceblue;
-    padding: 10pt;
-    margin: 10pt;
-    height: 2vh;
-    width: 10%;
-}
-.c{
-    background-color: aliceblue;
-    padding: 10pt;
-    margin: 10pt;
-    height: 2vh;
-    width: 8%;
-}
-.d{
-    background-color: aliceblue;
-    padding: 10pt;
-    margin: 10pt;
-    height: 2vh;
-    width: 10%;
-}
-.e{
-    background-color: aliceblue;
-    padding: 10pt;
-    margin: 10pt; 
-    height: 2vh;
-    width: 8%;
-}
-.f{
-    background-color: aliceblue;
-    padding: 10pt;
-    margin: 10pt;
-    height: 2vh;
-    width: 8%;
+*{
+    margin: 0;
+    padding: 0;
 }
 .box{
-    background-color: green;
-    width: 100%;
+    background-image: linear-gradient( 45deg, rgb(68, 68, 194),rgb(169, 35, 169));
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: start; */
+    /* align-items: end; */
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: end;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+    background-color: rgb(244, 245, 246);
+    padding: 20pt;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+}
+.box{
+    background-color: rgb(206, 212, 217);
+    padding: 20pt;
+}
+.form_contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.container{
+    background-color: rgb(244,245,245);
+}
+button{
+    width: 100%;
+    background-image: linear-gradient( 45deg, rgb(68, 68, 194),rgb(169, 35, 169));
+    height: 35pt;
+    margin-top: 15pt;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.label{
+    font-family: nunito;
+    margin-top: 2pt;
+    margin-bottom: 2pt;
+    font-weight: bold; 2pt
+}
+ input{
+    width: 95%;
+    border: 2pt solid rgb(204, 202, 202);
+    box-shadow: 0pt 1pt rgb(146, 143, 143);
+    border-radius: 3pt;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    height: 20pt;
+    padding: 6pt;
+}
+.heading{
+    font-family: nunito;
+    font-weight: bolder;
+    font-size: larger;
+    align-items: start;
+    padding: 3pt;
+    margin: 2pt;
 }

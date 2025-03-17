@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">1st number</label>
+    <input type="text" id="n1">
+    <label for="">2nd number</label>
+    <input type="text" id="n2">
+    <label for="">Result </label>
+    <input type="text" id="result">
+    <button>Enter</button>
+</body>
+<script>
+    document.querySelector("button").addEventListener("click",()=>{
+        let a=Number(document.querySelector("#n1").value);
+        let b=Number(document.querySelector("#n2").value);
+        let c=a+b;
+        document.querySelector("#result").value=c;
+    });
+</script>
+</html>

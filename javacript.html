@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Webpage loaded</h1>
+    <button id="red">Red</button>
+    <button id="yellow">Yellow</button>
+    <button id="pink">Pink</button>
+    <button id="green">Green</button>
+    <script>
+        document.querySelector("h1").addEventListener("mouseover",()=>{
+            document.querySelector("h1").style.color="red";
+        });
+        document.querySelector("h1").addEventListener("mouseout",()=>{
+            document.querySelector("h1").style.color="black";
+        });
+        document.querySelector("#red").addEventListener("click",()=>{
+            document.querySelector("body").style.backgroundColor = "red";
+        });
+        document.querySelector("#yellow").addEventListener("click",()=>{
+            document.querySelector("body").style.backgroundColor = "yellow";
+        });
+         document.querySelector("#pink").addEventListener("click",()=>{
+            document.querySelector("body").style.backgroundColor = "pink";
+        });
+         document.querySelector("#green").addEventListener("click",()=>{
+            document.querySelector("body").style.backgroundColor = "green";
+        });
+    </script>
+</body>
+</html>
